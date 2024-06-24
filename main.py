@@ -1,4 +1,4 @@
-print("Thank you for choosing Python Pizza Deliveries!")
+print("Your Order Receipt From Python Pizza!")
 size = input()
 add_pepperoni = input()
 extra_cheese = input()
@@ -23,4 +23,3 @@ if extra_cheese == "y":
   bill += 1
 
 print(f" Your Final Bill is £{bill}")
-print(" Thank you for ordering from Python Pizza Deliveries")
